@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C76F4B7C283DFC53005E3AB9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C76F4B7B283DFC53005E3AB9 /* main.m */; };
+		C76F4B84283E7077005E3AB9 /* Animal.m in Sources */ = {isa = PBXBuildFile; fileRef = C76F4B83283E7077005E3AB9 /* Animal.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		C76F4B78283DFC53005E3AB9 /* ObjCLearning */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ObjCLearning; sourceTree = BUILT_PRODUCTS_DIR; };
 		C76F4B7B283DFC53005E3AB9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C76F4B82283E7077005E3AB9 /* Animal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Animal.h; sourceTree = "<group>"; };
+		C76F4B83283E7077005E3AB9 /* Animal.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Animal.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				C76F4B7B283DFC53005E3AB9 /* main.m */,
+				C76F4B82283E7077005E3AB9 /* Animal.h */,
+				C76F4B83283E7077005E3AB9 /* Animal.m */,
 			);
 			path = ObjCLearning;
 			sourceTree = "<group>";
@@ -120,6 +125,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C76F4B7C283DFC53005E3AB9 /* main.m in Sources */,
+				C76F4B84283E7077005E3AB9 /* Animal.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
